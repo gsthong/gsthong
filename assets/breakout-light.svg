@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution arcade preview</title>
+  <desc id="desc">Static retro arcade preview. Run the GitHub workflow to generate an animation from actual contributions.</desc>
+  <rect width="840" height="220" rx="12" fill="#f6f8fa"/>
+  <g fill="#30a14e">
+    <path d="M60 48h100v16H60z M180 48h100v16H180z M300 48h100v16H300z M420 48h100v16H420z M540 48h100v16H540z M660 48h100v16H660z"/>
+  </g>
+  <g fill="#9be9a8">
+    <path d="M60 74h100v16H60z M180 74h100v16H180z M300 74h100v16H300z M420 74h100v16H420z M540 74h100v16H540z M660 74h100v16H660z"/>
+  </g>
+  <path d="M380 170h80v8h-80z M472 130h8v8h-8z" fill="#216e39"/>
+  <text x="420" y="207" fill="#57606a" font-family="monospace" font-size="12" text-anchor="middle">ARCADE PREVIEW / RUN WORKFLOW TO LOAD CONTRIBUTIONS</text>
+</svg>
