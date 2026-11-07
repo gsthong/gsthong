@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 20 960 390" role="img" aria-labelledby="title description">
   <title id="title">gsthong — signal laboratory</title>
-  <desc id="description">An original voxel island hosts a network of green agents. One violet agent transmits a conflicting signal. Slow signal pulses and brief displaced lettering evoke a corrupted simulation. Decorative artwork, not experiment data.</desc>
+  <desc id="description">A voxel network appears trustworthy until a slow violet scan reveals a disguised agent and hidden connections. Original decorative artwork, not live experiment data.</desc>
   <defs>
+    <clipPath id="reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="650" y="75" width="120" height="280">
+        <animate attributeName="x" values="480;820;820;480;480" keyTimes="0;0.4;0.5;0.9;1" dur="14s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#19252b" stroke-width="0.6"/>
     </pattern>
@@ -21,8 +26,8 @@
     </symbol>
   </defs>
 
-  <rect width="960" height="440" rx="10" fill="#0c1119"/>
-  <rect x="1" y="1" width="958" height="438" rx="10" fill="none" stroke="#27313c"/>
+  <rect y="20" width="960" height="390" rx="10" fill="#0c1119"/>
+  <rect x="1" y="21" width="958" height="388" rx="10" fill="none" stroke="#27313c"/>
   <rect x="480" y="56" width="448" height="320" fill="url(#grid)" opacity="0.6"/>
   <g fill="#6e8190" font-family="monospace" font-size="10" letter-spacing="2">
     <text x="38" y="36">FIELD NOTES / 001</text>
@@ -32,14 +37,10 @@
   <g font-family="monospace">
     <text x="38" y="126" fill="#a6e8bb" font-size="11" letter-spacing="3">GSTHONG / DORIME</text>
     <text x="35" y="185" fill="#e3e7eb" font-size="46" letter-spacing="-2">signal lab</text>
-    <g opacity="0" fill="#b49ae6" font-size="46" letter-spacing="-2" aria-hidden="true">
-      <text x="39" y="185">signal lab</text>
-      <animate attributeName="opacity" values="0;0;0.3;0;0.2;0;0" keyTimes="0;0.78;0.79;0.80;0.81;0.82;1" dur="12s" repeatCount="indefinite"/>
-    </g>
     <text x="38" y="222" fill="#9aa7b4" font-size="14">small rules. uncertain worlds.</text>
     <text x="38" y="275" fill="#6e8190" font-size="11">belief / influence / emergence</text>
     <path d="M38 300H342" stroke="#293640"/>
-    <text x="38" y="326" fill="#b49ae6" font-size="11">&gt; observation != truth_</text>
+    <text x="38" y="326" fill="#b49ae6" font-size="12">&gt; same world. different beliefs.</text>
   </g>
 
   <!-- Original isometric tiles, painted back to front. -->
@@ -70,35 +71,34 @@
   <g fill="none" stroke="#78bc98" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.75">
     <path d="M640 156 600 216 680 266 760 236 720 196 640 156 680 266"/>
   </g>
-  <path d="M720 196 680 266" fill="none" stroke="#b49ae6" stroke-width="1.6" stroke-dasharray="4 7">
-    <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="5s" repeatCount="indefinite"/>
-  </path>
   <circle r="3" fill="#bef6d1">
     <animateMotion path="M640 156 600 216 680 266 760 236 720 196 640 156" dur="10s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="720" cy="196" r="18" fill="none" stroke="#b49ae6" opacity="0.3">
-    <animate attributeName="r" values="13;28;13" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.35;0.05;0.35" dur="6s" repeatCount="indefinite"/>
   </circle>
   <use href="#agent" x="629" y="126" width="22" height="32"/>
   <use href="#agent" x="589" y="186" width="22" height="32"/>
   <use href="#agent" x="669" y="236" width="22" height="32"/>
   <use href="#agent" x="749" y="206" width="22" height="32"/>
-  <g>
+  <use href="#agent" x="709" y="166" width="22" height="32"/>
+  <g clip-path="url(#reveal)">
+    <rect x="500" y="85" width="400" height="260" fill="#b49ae6" opacity="0.07"/>
+    <path d="M600 216 720 196 760 236M640 156 720 196 680 266" fill="none" stroke="#c6a6ff" stroke-width="2" stroke-dasharray="4 5">
+      <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M713 166H727V180H713ZM709 184H731V198H709Z" fill="#0c1119" stroke="#0c1119" stroke-width="3"/>
     <path d="M713 166H727V180H713ZM709 184H731V198H709Z" fill="#b49ae6"/>
     <path d="M716 171H719V174H716ZM722 171H725V174H722Z" fill="#302940"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 0;0 0;0 0" keyTimes="0;0.7;0.71;0.73;1" dur="11s" repeatCount="indefinite"/>
+    <circle cx="720" cy="182" r="26" fill="none" stroke="#c6a6ff" opacity="0.6"/>
+    <text x="745" y="151" fill="#ceb6f5" font-family="monospace" font-size="11">HIDDEN STATE</text>
+    <path d="M746 156 734 167" stroke="#b49ae6"/>
+    <path d="M600 235 640 255 640 287 600 267Z" fill="#b49ae6" opacity="0.35"/>
   </g>
-  <g font-family="monospace" font-size="9" letter-spacing="1">
-    <text x="774" y="154" fill="#b49ae6">UNVERIFIED</text>
-    <path d="M770 159 737 178" fill="none" stroke="#76658f"/>
-    <text x="576" y="363" fill="#6e8190">WORLD SEED: UNKNOWN</text>
+  <g transform="translate(650 0)">
+    <animateTransform attributeName="transform" type="translate" values="480 0;820 0;820 0;480 0;480 0" keyTimes="0;0.4;0.5;0.9;1" dur="14s" repeatCount="indefinite"/>
+    <path d="M0 88V343M120 88V343" stroke="#b49ae6" opacity="0.5"/>
+    <path d="M0 88H12M0 88V100M120 343H108M120 343V331" fill="none" stroke="#d1b8ff"/>
   </g>
-  <path d="M38 386H922" stroke="#27313c"/>
-  <g font-family="monospace" font-size="10" letter-spacing="1">
-    <circle cx="42" cy="410" r="3" fill="#a6e8bb"/>
-    <text x="54" y="413" fill="#83948f">MODEL RUNNING</text>
-    <text x="922" y="413" text-anchor="end" fill="#7e718f">TRUST THE PROCESS. QUESTION THE SIGNAL.</text>
+  <g font-family="monospace" font-size="11" letter-spacing="1">
+    <text x="576" y="363" fill="#8e9baa">OBSERVED / HIDDEN</text>
   </g>
-  <rect width="960" height="440" rx="10" fill="url(#scan)" pointer-events="none"/>
+  <rect y="20" width="960" height="390" rx="10" fill="url(#scan)" pointer-events="none"/>
 </svg>

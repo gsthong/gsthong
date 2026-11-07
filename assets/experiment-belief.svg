@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="124" viewBox="0 0 960 124" role="img" aria-labelledby="title desc">
+<title id="title">BELIEF NETWORKS</title><desc id="desc">Can consensus be manufactured? PYTHON / NETWORK SIMULATION. Open project repository.</desc>
+<rect x="1" y="1" width="958" height="122" rx="7" fill="#0c1119" stroke="#29333e"/>
+<path d="M124 20V104" stroke="#29333e"/>
+<g stroke="#a6e8bb" stroke-width="1.5" fill="#15222b" stroke-linejoin="round"><path d="M32 55 62 35 92 55 62 78Z M32 55H92M62 35V78"/><circle cx="32" cy="55" r="5"/><circle cx="62" cy="35" r="5"/><circle cx="92" cy="55" r="5"/><circle cx="62" cy="78" r="5"/></g>
+<g font-family="monospace">
+<text x="151" y="35" font-size="11" fill="#a6e8bb" letter-spacing="2">EXPERIMENT 01</text>
+<text x="151" y="64" font-size="22" fill="#e3e7eb" letter-spacing="1">BELIEF NETWORKS</text>
+<text x="151" y="91" font-size="14" fill="#a0adba">Can consensus be manufactured?</text>
+<text x="918" y="36" text-anchor="end" font-size="11" fill="#8e9baa">PYTHON / NETWORK SIMULATION</text>
+<text x="918" y="91" text-anchor="end" font-size="12" fill="#a6e8bb">OPEN / &#8599;</text>
+</g></svg>
