@@ -29,4 +29,4 @@ Rigid bodies and collision detection, written in C++17.
   <img alt="Breakout animation generated from my GitHub contributions." src="assets/breakout-dark.svg" width="640">
 </picture>
 
-<sub><a href="https://github.com/gsthong?tab=repositories">All projects</a> ? Arcade powered by <a href="https://github.com/cyprieng/github-breakout">github-breakout</a></sub>
+<sub><a href="https://github.com/gsthong?tab=repositories">All projects</a> &middot; Arcade powered by <a href="https://github.com/cyprieng/github-breakout">github-breakout</a></sub>
