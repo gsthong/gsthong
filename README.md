@@ -1,32 +1,24 @@
-# gsthong <sub>/ dorime</sub>
-
-Small rules. Complex worlds.
-
-I build simulations to explore belief, influence, and emergent behavior.
-
-<samp>agent-based models / belief networks / interactive systems</samp>
+<img src="assets/signal-lab.svg" alt="gsthong / signal lab — a voxel world of belief-updating agents, with one unverified signal." width="960">
 
 <br>
 
-### Selected experiments
+I build simulations to explore **belief, influence, and emergent behavior**.
 
-[**Belief networks**](https://github.com/gsthong/nckh_v3)  
-Strategic manipulation. Network topology. The limits of consensus.
-
-[**Layered Society**](https://github.com/gsthong/layered-society---mvp)  
-An agent-based sandbox for social dynamics and adversarial influence.
-
-[**Physics engine**](https://github.com/gsthong/Simple-Physics-Engine)  
-Rigid bodies and collision detection, written in C++17.
+$$
+\underbrace{\mathbb{P}(\theta\mid m)}_{\text{updated belief}}
+\propto
+\underbrace{\mathbb{P}(m\mid\theta)}_{\text{a signal, not a guarantee}}
+\,\mathbb{P}(\theta)
+$$
 
 <br>
 
-<samp>off the clock / contribution arcade</samp>
+<samp>SELECTED EXPERIMENTS /</samp>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/breakout-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/breakout-light.svg">
-  <img alt="Breakout animation generated from my GitHub contributions." src="assets/breakout-dark.svg" width="640">
-</picture>
+- [**Belief networks**](https://github.com/gsthong/nckh_v3) — strategic manipulation & the limits of consensus.
+- [**Layered Society**](https://github.com/gsthong/layered-society---mvp) — social dynamics in an adversarial sandbox.
+- [**Physics engine**](https://github.com/gsthong/Simple-Physics-Engine) — rigid bodies, collisions, C++17.
 
-<sub><a href="https://github.com/gsthong?tab=repositories">All projects</a> &middot; Arcade powered by <a href="https://github.com/cyprieng/github-breakout">github-breakout</a></sub>
+<br>
+
+<sub>Local rules. Emergent worlds. Unreliable narrators. &nbsp; / &nbsp; <a href="https://github.com/gsthong?tab=repositories">Explore the lab</a></sub>

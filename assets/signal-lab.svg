@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title description">
+  <title id="title">gsthong — signal laboratory</title>
+  <desc id="description">An original voxel island hosts a network of green agents. One violet agent transmits a conflicting signal. Slow signal pulses and brief displaced lettering evoke a corrupted simulation. Decorative artwork, not experiment data.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#19252b" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4" stroke="#b7f7d2" stroke-opacity="0.025"/>
+    </pattern>
+    <symbol id="block" viewBox="0 0 80 72">
+      <path d="M0 20 40 0 80 20 40 40Z" fill="#31554c" stroke="#436c5c"/>
+      <path d="M0 20 40 40V72L0 52Z" fill="#172e2b" stroke="#27463d"/>
+      <path d="M40 40 80 20V52L40 72Z" fill="#203f36" stroke="#315346"/>
+      <path d="M8 24 19 29V36L8 31ZM25 48 33 52V59L25 55" fill="#24463c"/>
+    </symbol>
+    <symbol id="agent" viewBox="0 0 22 32">
+      <path d="M4 0H18V14H4ZM0 18H22V32H0Z" fill="#a6e8bb"/>
+      <path d="M7 5H10V8H7ZM13 5H16V8H13Z" fill="#122b26"/>
+      <path d="M5 20H17V23H5Z" fill="#66a886"/>
+    </symbol>
+  </defs>
+
+  <rect width="960" height="440" rx="10" fill="#0c1119"/>
+  <rect x="1" y="1" width="958" height="438" rx="10" fill="none" stroke="#27313c"/>
+  <rect x="480" y="56" width="448" height="320" fill="url(#grid)" opacity="0.6"/>
+  <g fill="#6e8190" font-family="monospace" font-size="10" letter-spacing="2">
+    <text x="38" y="36">FIELD NOTES / 001</text>
+    <text x="922" y="36" text-anchor="end">SIMULATION, NOT REALITY</text>
+  </g>
+
+  <g font-family="monospace">
+    <text x="38" y="126" fill="#a6e8bb" font-size="11" letter-spacing="3">GSTHONG / DORIME</text>
+    <text x="35" y="185" fill="#e3e7eb" font-size="46" letter-spacing="-2">signal lab</text>
+    <g opacity="0" fill="#b49ae6" font-size="46" letter-spacing="-2" aria-hidden="true">
+      <text x="39" y="185">signal lab</text>
+      <animate attributeName="opacity" values="0;0;0.3;0;0.2;0;0" keyTimes="0;0.78;0.79;0.80;0.81;0.82;1" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <text x="38" y="222" fill="#9aa7b4" font-size="14">small rules. uncertain worlds.</text>
+    <text x="38" y="275" fill="#6e8190" font-size="11">belief / influence / emergence</text>
+    <path d="M38 300H342" stroke="#293640"/>
+    <text x="38" y="326" fill="#b49ae6" font-size="11">&gt; observation != truth_</text>
+  </g>
+
+  <!-- Original isometric tiles, painted back to front. -->
+  <ellipse cx="699" cy="342" rx="174" ry="32" fill="#080d14"/>
+  <g>
+    <use href="#block" x="640" y="115" width="80" height="72"/>
+    <use href="#block" x="600" y="135" width="80" height="72"/>
+    <use href="#block" x="680" y="135" width="80" height="72"/>
+    <use href="#block" x="560" y="155" width="80" height="72"/>
+    <use href="#block" x="640" y="155" width="80" height="72"/>
+    <use href="#block" x="720" y="155" width="80" height="72"/>
+    <use href="#block" x="600" y="175" width="80" height="72"/>
+    <use href="#block" x="680" y="175" width="80" height="72"/>
+    <use href="#block" x="760" y="175" width="80" height="72"/>
+    <use href="#block" x="560" y="195" width="80" height="72"/>
+    <use href="#block" x="640" y="195" width="80" height="72"/>
+    <use href="#block" x="720" y="215" width="80" height="72"/>
+    <use href="#block" x="600" y="235" width="80" height="72"/>
+    <use href="#block" x="680" y="235" width="80" height="72"/>
+    <use href="#block" x="640" y="255" width="80" height="72"/>
+  </g>
+
+  <!-- A detached tile: the world is almost, but not quite, consistent. -->
+  <g opacity="0.8">
+    <use href="#block" x="819" y="264" width="48" height="44"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="7s" repeatCount="indefinite"/>
+  </g>
+  <g fill="none" stroke="#78bc98" stroke-width="1.2" stroke-dasharray="3 5" opacity="0.75">
+    <path d="M640 156 600 216 680 266 760 236 720 196 640 156 680 266"/>
+  </g>
+  <path d="M720 196 680 266" fill="none" stroke="#b49ae6" stroke-width="1.6" stroke-dasharray="4 7">
+    <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle r="3" fill="#bef6d1">
+    <animateMotion path="M640 156 600 216 680 266 760 236 720 196 640 156" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="196" r="18" fill="none" stroke="#b49ae6" opacity="0.3">
+    <animate attributeName="r" values="13;28;13" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.05;0.35" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <use href="#agent" x="629" y="126" width="22" height="32"/>
+  <use href="#agent" x="589" y="186" width="22" height="32"/>
+  <use href="#agent" x="669" y="236" width="22" height="32"/>
+  <use href="#agent" x="749" y="206" width="22" height="32"/>
+  <g>
+    <path d="M713 166H727V180H713ZM709 184H731V198H709Z" fill="#b49ae6"/>
+    <path d="M716 171H719V174H716ZM722 171H725V174H722Z" fill="#302940"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;3 0;0 0;0 0" keyTimes="0;0.7;0.71;0.73;1" dur="11s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="monospace" font-size="9" letter-spacing="1">
+    <text x="774" y="154" fill="#b49ae6">UNVERIFIED</text>
+    <path d="M770 159 737 178" fill="none" stroke="#76658f"/>
+    <text x="576" y="363" fill="#6e8190">WORLD SEED: UNKNOWN</text>
+  </g>
+  <path d="M38 386H922" stroke="#27313c"/>
+  <g font-family="monospace" font-size="10" letter-spacing="1">
+    <circle cx="42" cy="410" r="3" fill="#a6e8bb"/>
+    <text x="54" y="413" fill="#83948f">MODEL RUNNING</text>
+    <text x="922" y="413" text-anchor="end" fill="#7e718f">TRUST THE PROCESS. QUESTION THE SIGNAL.</text>
+  </g>
+  <rect width="960" height="440" rx="10" fill="url(#scan)" pointer-events="none"/>
+</svg>
